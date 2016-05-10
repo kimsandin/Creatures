@@ -203,6 +203,7 @@
     <Compile Include="Models\Challenge.cs" />
     <Compile Include="Models\Character.cs" />
     <Compile Include="Models\Competitor.cs" />
+    <Compile Include="Models\ContactRequest.cs" />
     <Compile Include="Models\CurrentLand.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Land.cs" />
@@ -231,6 +232,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrapcustom.css" />
     <Content Include="Content\character.css" />
+    <Content Include="Content\ContactForm.css" />
     <Content Include="Content\fancybox\blank.gif" />
     <Content Include="Content\fancybox\fancybox_buttons.png" />
     <Content Include="Content\fancybox\fancybox_loading%402x.gif" />
@@ -371,6 +373,9 @@
     <Content Include="Views\Map\Index.cshtml" />
     <Content Include="Views\Map\Travel.cshtml" />
     <Content Include="Views\Map\Travelling.cshtml" />
+    <Content Include="Views\Help\ContactForm.cshtml" />
+    <Content Include="Views\Help\Thanks.cshtml" />
+    <Content Include="Views\Help\SendEmailError.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
